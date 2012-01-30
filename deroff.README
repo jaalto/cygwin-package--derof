@@ -1,0 +1,62 @@
+deroff
+------------------------------------------
+
+Remove roff and preprocessor constructs
+
+Program strips out roff constructs and macros. The preprocessor (eqn,
+tbl, pic, grap, and vgrind) sections are removed entirely. The
+resulting output is suitable for spelling with e.g. spell(1).
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/deroff
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: David Frey <dfrey@debian.org>
+  Bugs: David Frey <dfrey@debian.org>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack deroff-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./deroff*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes:
+
+----- version 1.1-1 -----
+- Initial release 2008-02-26 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

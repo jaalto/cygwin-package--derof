@@ -1,0 +1,6 @@
+sdesc: "Remove roff and preprocessor constructs"
+ldesc: "Program strips out roff constructs and macros. The preprocessor (eqn,
+tbl, pic, grap, and vgrind) sections are removed entirely. The
+resulting output is suitable for spelling with e.g. spell(1)."
+category: Utils
+requires: cygwin
